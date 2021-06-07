@@ -42,6 +42,7 @@ def login_request(request):
             return render(request, 'djangoapp/user_login_bootstrap.html', context)
     else:
         return render(request, 'djangoapp/user_login_bootstrap.html', context)
+
 # Create a `logout_request` view to handle sign out request
 # def logout_request(request):
 # ...
