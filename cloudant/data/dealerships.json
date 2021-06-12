@@ -1,4 +1,7 @@
 {
+export IAM_API_KEY="NOoFjS1W-wkafv-XpneAdn29xBG2eKIrZZr4JMH1JyIl"
+export COUCH_URL="https://8c67bc94-aebd-41bc-9e21-e5b2e41c7886-bluemix.cloudantnosqldb.appdomain.cloud"
+
   "dealerships": [
     {
       "id": 1,
