@@ -30,9 +30,9 @@ if api_key:
  else:
    # no authentication GET
    request.get(url, params=params)
-   
+
 # Create a `post_request` to make HTTP POST requests
-# e.g., response = requests.post(url, params=kwargs, json=payload)
+response = requests.post(url, params=kwargs, json=payload)
 
 
 # Create a get_dealers_from_cf method to get dealers from a cloud function

@@ -120,6 +120,9 @@ def get_dealer_details_from_cf(url, **kwargs):
 
     return results
 # Create a `add_review` view to submit a review
-# def add_review(request, dealer_id):
+def add_review(request, dealer_id):
+    review["time"] = datetime.utcnow().isoformat()
+review["dealership"] = 11
+review["review"] = "This is a great car dealer"
 # ...
 
