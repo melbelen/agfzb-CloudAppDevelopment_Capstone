@@ -86,5 +86,9 @@
     </table>
     <td><a href="{% url 'djangoapp:dealer_details' dealer.id %}">{{dealer.full_name}}</a></td>
     </body>
-
+<script>
+  $(function() {
+    $('#table').bootstrapTable()
+  })
+</script>
 </html>
