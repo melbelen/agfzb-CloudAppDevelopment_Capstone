@@ -129,7 +129,8 @@ def get_dealer_details_from_cf(url, **kwargs):
                                    st=dealer_doc["st"], zip=dealer_doc["zip"])
             results.append(dealer_obj)
 
-    return results
+    # return results
+    render(request, 'djangoapp/dealer_details.html', context)
 # Create a `add_review` view to submit a review
 def add_review(request, dealer_id):
     review["time"] = datetime.utcnow().isoformat()
